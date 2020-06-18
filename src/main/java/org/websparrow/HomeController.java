@@ -18,7 +18,7 @@ public class HomeController {
 	@GetMapping("{name}")
 	public String welcomeName(@PathVariable("name") String name) {
 
-		return "Hello " + name;
+		return "Hello " + name +" :)";
 	}
 
 }
